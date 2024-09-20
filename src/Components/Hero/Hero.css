@@ -18,8 +18,9 @@
 }
 
 .img-logo{
-    width: 350px;
+    width: 300px;
     transition: 0.5s;
+    margin: 35px 40px 35px 40px;
 }
 
 .Kruba-Name {
@@ -32,9 +33,19 @@
 }
 
 .img-logo:hover {
-    transform: scale(1.01); /* Increase scaling effect */
+    transform: scale(1.05); /* Increase scaling effect */
 }
 
+.Hero button{
+    font-size: 23px;
+    border-style: none;
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #118bef 10%, #20cfff);
+    color: white;
+    cursor: pointer;
+}
 
 
 

@@ -1,0 +1,51 @@
+.about-kruba{
+    margin: 40px 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+
+}
+
+.about-kruba span{
+    padding-right: 10px;
+    color:  #36d3ff;
+
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.about-Img{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.about-bio{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.about-skills{
+    display: flex;
+    gap: 50px;
+    margin-top: 35px;
+}
+
+.about-button{
+    font-size: 23px;
+    border-style: none;
+    padding: 05px 20px 05px 20px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #118bef 10%, #20cfff);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.about-button:hover{
+    transform: scale(1.05);
+}
+

@@ -1,0 +1,34 @@
+*{
+    font-family: Outfit;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+
+.nav-elememts{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size:19px;
+}
+
+.nav-resume{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,#2e9cf6, #6FC7DF); 
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-resume:hover{
+    transform: scale(1.05);
+}
+
+.nav-name{
+    font-size: 25px;
+}

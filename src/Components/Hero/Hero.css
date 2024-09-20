@@ -1,0 +1,40 @@
+.Hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.Hero-name{
+    font-size: 45px;
+
+}
+
+.Hero p{
+    font-size: 20px;
+
+}
+
+.img-logo{
+    width: 350px;
+    transition: 0.5s;
+}
+
+.Kruba-Name {
+    background: linear-gradient(90deg, #118bef 10%, #53d8fd);
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 0px 5px;
+    transition: transform 0.5s, background 0.3s;
+    cursor: pointer;
+}
+
+.img-logo:hover {
+    transform: scale(1.01); /* Increase scaling effect */
+}
+
+
+
+

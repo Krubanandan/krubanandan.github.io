@@ -1,13 +1,15 @@
 import React from "react";
-import c from '../../assets/c.png'
-import py from '../../assets/python.png'
-import java from '../../assets/java.png'
-import html from '../../assets/html.png'
-import css from '../../assets/css.png'
-import js1 from '../../assets/html.png'
-import './Skills.css'
+import c from "../../assets/c.png";
+import py from "../../assets/python.png";
+import java from "../../assets/java.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
+import js1 from "../../assets/js1.png";
+import ps from "../../assets/ps.png";
+import pr from "../../assets/pr.png";
+import ae from "../../assets/ae.png";
 
-
+import "./Skills.css";
 
 const dev = ["css.png", "html.png", "react.png", "js1.png", "js.png"];
 
@@ -21,12 +23,29 @@ const Skills = () => {
       <h1>Skills</h1>
       <div className="skill-set">
         <div className="dev">
-            <img src={c}  className="img-skills" width={'200px'}/>
-            <img src={py}  className="img-skills"/>
-            <img src={java} className="img-skills" />
+          <div className="Heading">Programming</div>
+          <div className="image-logo">
+            <img src={c} className="img-skills" width={"55px"} />
+            <img src={py} className="img-skills" width={"55px"}/>
+            <img src={java} className="img-skills" width={"55px"}/>
+          </div>
         </div>
-        <div className="program"></div>
-        <div className="design"></div>
+        <div className="program">
+          <div className="Heading">Front-End</div>
+          <div className="image-logo">
+            <img src={html} className="img-skills" width={"65px"} />
+            <img src={css} className="img-skills" width={"70px"}/>
+            <img src={js1} className="img-skills" width={"65px"}/>
+          </div>
+        </div>
+        <div className="design">
+          <div className="Heading">Visual Design</div>
+          <div className="image-logo">
+            <img src={ps} className="img-skills"  width={"55px"}/>
+            <img src={pr} className="img-skills" width={"60px"} />
+            <img src={ae} className="img-skills" width={"60px"}/>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,3 +1,77 @@
-.img-skills{
+/* .img-skills{
     width: 50px;
+} */
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.skill-set{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;  
+}
+
+/* .dev{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border-image: linear-gradient(to right,#118bef 10%, #20cfff);
+    border-image-slice: 1;
+    border-style: solid;
+    
+    
+} */
+
+/* .program{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    border-image: linear-gradient(to right,#118bef 10%, #20cfff);
+    border-image-slice: 1;
+    border-style: solid;
+    
+} */
+
+.design, .program, .dev {
+    width: 300px;
+    height: 180px;
+    /* background-color: #222120; */
+
+    /* border-width: 2px; 
+    border-color: #20cfff;
+    border-style: solid; */
+    border-radius: 20px; /* Rounded corners */
+}
+
+
+.Heading{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 25px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #118bef 10%, #20cfff);
+     margin: 20px;
+     padding: 05px 10px 05px 10px;
+     width: 180px;
+     margin-left: 50px;
+}
+
+.image-logo{
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #222120;
+    border-radius: 20px;
+    /* flex-direction: column; */
+    /* margin: 0px 10px 0px 20px ; */
 }

@@ -1,0 +1,27 @@
+/* .linkKruba{
+    width: 50px;
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 500px;
+    background-color:#1b1a1a;
+    padding: 10px;
+}
+
+.name p{
+    font-size: 30px;
+    background: linear-gradient(90deg, #118bef 10%, #20cfff);
+    
+    -webkit-background-clip: text;
+    background-clip:text ;
+    color: transparent;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

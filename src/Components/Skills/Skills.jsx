@@ -9,6 +9,7 @@ import ps from "../../assets/ps.png";
 import pr from "../../assets/pr.png";
 import ae from "../../assets/ae.png";
 
+
 import "./Skills.css";
 
 const dev = ["css.png", "html.png", "react.png", "js1.png", "js.png"];
@@ -20,10 +21,10 @@ const des = ["fig.png", "ps1.png", "pr.png", "ae.png", "ps.png"];
 const Skills = () => {
   return (
     <>
-      <h1>Skills</h1>
+      <h1 className="Tech-head"><span className="spanTech">Technical</span> Skills</h1>
       <div className="skill-set">
         <div className="dev">
-          <div className="Heading">Programming</div>
+          <div className="Heading">PROGRAMMING</div>
           <div className="image-logo">
             <img src={c} className="img-skills" width={"55px"} />
             <img src={py} className="img-skills" width={"55px"}/>
@@ -31,7 +32,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="program">
-          <div className="Heading">Front-End</div>
+          <div className="Heading">FRONT-END</div>
           <div className="image-logo">
             <img src={html} className="img-skills" width={"65px"} />
             <img src={css} className="img-skills" width={"70px"}/>
@@ -39,7 +40,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="design">
-          <div className="Heading">Visual Design</div>
+          <div className="Heading">VISUAL DESIGN</div>
           <div className="image-logo">
             <img src={ps} className="img-skills"  width={"55px"}/>
             <img src={pr} className="img-skills" width={"60px"} />

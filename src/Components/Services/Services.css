@@ -6,7 +6,7 @@
   margin: 10px 170px;
 }
 
-.ser-title{
+.ser-title {
   margin: 50px;
   font-size: 22px;
 }
@@ -15,7 +15,9 @@
   flex-direction: column;
   justify-content: center;
   gap: 10px;
-  padding: 60px;
+  padding: 50px;
+  width: 250px;
+  height: 200px;
   border-radius: 10px;
   border: 2px solid white;
   transition: 0.5s;
@@ -27,8 +29,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
-.ser-format h3{
-    font-size: 30px;
+.ser-format h3 {
+  font-size: 30px;
 }
 .ser-format h2 {
   font-size: 30px;
@@ -39,12 +41,80 @@
   color: transparent;
 }
 
+.ser-format:hover {
+  border: 2px solid #20cfff;
+  background-image: linear-gradient(135deg, #161513, #0a171e);
+  transform: scale(1.05);
+  transition: 0.4s;
+}
 
-.ser-format:hover{
-    border: 2px solid #20cfff;
-    background-image: linear-gradient(135deg, #161513, #0a171e );
-    transform: scale(1.05);
-    transition: 0.4s;
+@media (min-width: 768px) and (max-width: 991px){
+  .ser-title {
+    margin: 30px;
+    font-size: 25px;
+  }
+
+  .ser-work {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .ser-format {
+    gap: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 180px;
+    
+    
+  }
+
+  .ser-format h3 {
+    font-size: 25px;
+  }
+  .ser-format h2 {
+    font-size: 30px;
+  
+    
+  }
+  .ser-format p{
+    font-size: 13px;
+
+  }
 
 }
 
+@media (max-width: 767px) {
+  .ser-title {
+    margin: 30px;
+    font-size: 20px;
+  }
+
+  .ser-work {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .ser-format {
+    gap: 10px;
+    padding: 50px;
+    width: 200px;
+    height: 150px;
+    
+    
+  }
+
+  .ser-format h3 {
+    font-size: 20px;
+  }
+  .ser-format h2 {
+    font-size: 25px;
+  }
+  .ser-format p{
+    font-size: 13px;
+
+  }
+
+
+}

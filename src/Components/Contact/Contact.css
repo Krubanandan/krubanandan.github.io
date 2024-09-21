@@ -12,7 +12,6 @@
 .contact-content{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 100px;
     margin: 40px;
 }
@@ -75,5 +74,25 @@
     background-clip: text;
     color: transparent;
     font-size: 25px;
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .contact-content{
+        justify-content: center;
+        /* flex-direction: column; */
+        gap: 30px;
+        margin: 40px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .contact-content{
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin: 40px;
+    }
 
 }

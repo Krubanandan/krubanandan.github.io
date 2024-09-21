@@ -1,7 +1,3 @@
-/* .img-skills{
-    width: 50px;
-} */
-
 .Tech-head {
   display: flex;
   align-items: center;
@@ -11,9 +7,9 @@
   margin-bottom: 30px;
 }
 
-.spanTech{
-    color: #36d3ff;
-    padding-right:10px ;
+.spanTech {
+  color: #36d3ff;
+  padding-right: 10px;
 }
 
 .skill-set {
@@ -23,45 +19,18 @@
   gap: 150px;
 }
 
-/* .dev{
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    border-image: linear-gradient(to right,#118bef 10%, #20cfff);
-    border-image-slice: 1;
-    border-style: solid;
-    
-    
-} */
-
-/* .program{
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
-    border-image: linear-gradient(to right,#118bef 10%, #20cfff);
-    border-image-slice: 1;
-    border-style: solid;
-    
-} */
-
 .design,
 .program,
 .dev {
   width: 300px;
   height: 180px;
-  /* background-color: #222120; */
-
-  /* border-width: 2px; 
-    border-color: #20cfff;
-    border-style: solid; */
-  border-radius: 20px; /* Rounded corners */
+  border-radius: 20px;
 }
 
 .Heading {
   justify-content: center;
   display: flex;
   align-items: center;
-  /* text-align: center; */
   font-size: 25px;
   border-radius: 20px;
   background: linear-gradient(90deg, #118bef 10%, #20cfff);
@@ -71,8 +40,6 @@
   margin: 10px;
   padding: 05px 10px 05px 10px;
   font-weight: 500;
-  /* width: 180px; */
-  /* margin-left: 50px; */
 }
 
 .image-logo {
@@ -84,6 +51,42 @@
   gap: 25px;
   background-color: #222120;
   border-radius: 20px;
-  /* flex-direction: column; */
-  /* margin: 0px 10px 0px 20px ; */
+}
+
+@media (min-width: 768px) and (max-width: 1222px){
+  .Tech-head {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+
+  .skill-set {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+}
+
+@media(max-width:768px){
+  .Tech-head {
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .skill-set {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
 }

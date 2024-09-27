@@ -20,7 +20,7 @@
 
 .about-para{
     width: 650px;
-    height: 300px;
+    height: 250px;
 }
 
 .paraTwo{
@@ -109,7 +109,7 @@
 
 }
 
-@media(max-width:767px){
+@media(min-width:576px) and (max-width:767px){
     .about-kruba{
         margin: 40px 40px;
         font-size: 35px;
@@ -118,6 +118,7 @@
     .about-content{
         
         flex-direction: column;
+        /* flex-direction: column; */
         gap: 20px;
         align-items: center;
     }
@@ -156,4 +157,182 @@
         
     }
 
+}
+
+@media  (min-width:481px) and (max-width: 575px){
+    .about-kruba{
+        margin: 40px 40px;
+        font-size: 35px;
+    
+    }
+    .about-content{
+        
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .about-Img{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .about-bio {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+
+      }
+
+      .about-para{
+        width: 400px;
+        height: 230px;
+        
+      }
+
+      .about-skills{
+        display: flex;
+        gap: 10px;
+        /* flex-direction: column; */
+        /* margin-top: 15px; */
+    }
+
+    .about-button{
+        font-size: 15px;
+        
+    }
+
+}
+
+
+@media  (min-width:401px) and (max-width: 480px){
+    .about-kruba{
+        margin: 40px 40px;
+        font-size: 28px;
+    
+    }
+    .about-content{
+        
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .about-Img{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .about-bio {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .about-para{
+        width: 300px;
+        height: 250px;
+        text-align: center;
+        
+      }
+
+      .about-skills{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-direction: column; */
+        /* margin-top: 15px; */
+    }
+
+    .about-button{
+        font-size: 20px;
+        
+    }
+
+}
+
+@media  (min-width:320px) and (max-width: 400px){
+    .about-kruba{
+        margin: 40px 40px;
+        font-size: 28px;
+    
+    }
+    .about-content{
+        
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .about-Img{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .about-bio {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .about-para{
+        width: 280px;
+        height: 280px;
+        text-align: center;
+        
+      }
+
+      .about-skills{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        /* flex-direction: column; */
+        /* margin-top: 15px; */
+    }
+
+    .about-button{
+        font-size: 18px;
+        
+    }
+    
+}
+
+@media  (max-width: 319px){
+    .img-logo{
+        width: 200px;
+    }
+
+    .Hero-name{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Kruba-Name{
+        margin: 10px 10px;
+    }
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Hero button{
+        font-size: 13px;
+        border-style: none;
+        margin: 15px;
+        padding: 07px 15px 07px 15px;
+        border-radius: 20px;
+    }
+    
 }

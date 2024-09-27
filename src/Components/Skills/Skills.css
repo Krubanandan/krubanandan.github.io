@@ -73,7 +73,7 @@
 
 }
 
-@media(max-width:768px){
+@media(min-width:576px) and (max-width:768px){
   .Tech-head {
     font-size: 35px;
     margin-top: 0px;

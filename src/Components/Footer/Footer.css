@@ -35,14 +35,27 @@
 
 }
 
-@media (max-width: 767px){
+@media (min-width: 576px) and (max-width: 767px){
     .name p{
         font-size: 25px;
     }
     .footer{
         justify-content: space-around;
         align-items: center;
-        gap: 200px;
+        gap: 150px;
+        padding: 10px;
+    }
+
+}
+
+@media  (max-width: 575px){
+    .name p{
+        font-size: 25px;
+    }
+    .footer{
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
         padding: 10px;
     }
 

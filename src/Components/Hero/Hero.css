@@ -74,7 +74,7 @@
 
 }
 
-@media(max-width:767px){
+@media (min-width:576px) and (max-width:767px){
     .img-logo{
         width: 300px;
     }
@@ -100,5 +100,124 @@
     }
 }
 
+@media  (min-width:481px) and (max-width: 575px){
+    .img-logo{
+        width: 250px;
+    }
+
+    .Hero-name{
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Hero button{
+        font-size: 18px;
+        border-style: none;
+        margin: 15px;
+        padding: 07px 15px 07px 15px;
+        border-radius: 20px;
+    }
+
+}
+
+@media  (min-width:401px) and (max-width: 480px){
+    .img-logo{
+        width: 200px;
+    }
+
+    .Hero-name{
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Hero button{
+        font-size: 18px;
+        border-style: none;
+        margin: 15px;
+        padding: 07px 15px 07px 15px;
+        border-radius: 20px;
+    }
+    
+
+}
+
+@media  (min-width:320px) and (max-width: 400px){
+    .img-logo{
+        width: 200px;
+    }
+
+    .Hero-name{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Hero button{
+        font-size: 18px;
+        border-style: none;
+        margin: 15px;
+        padding: 07px 15px 07px 15px;
+        border-radius: 20px;
+    }
+
+    
+}
+
+@media  (max-width: 319px){
+    .img-logo{
+        width: 200px;
+    }
+
+    .Hero-name{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Kruba-Name{
+        margin: 10px 10px;
+    }
+    .Kruba-Name{
+        margin: 0px 1px;
+    }
+    .Hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .Hero button{
+        font-size: 13px;
+        border-style: none;
+        margin: 15px;
+        padding: 07px 15px 07px 15px;
+        border-radius: 20px;
+    }
+    
+}
 
 

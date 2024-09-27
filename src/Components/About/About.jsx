@@ -27,12 +27,13 @@ const About = () => {
           </div>
 
           <div className="about-skills">
-            <button className="about-button">Github</button>
-            <button className="about-button">LinkedIn</button>
-            <button className="about-button">Leetcode</button>
-            <button className="about-button">Behance</button>
-          </div>
+          <button className="about-button">Github</button>
+          <button className="about-button">LinkedIn</button>
+          <button className="about-button">Leetcode</button>
+          <button className="about-button">Behance</button>
+        </div>
         </p>
+       
       </div>
     </>
   );

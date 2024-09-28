@@ -11,9 +11,9 @@ const Footer = () => {
         <p>Krubanadan</p>
       </div>
       <div className="links">
-        <img alt="" className="linkKruba" src={git} width={"50px"}/>
-        <img alt="" className="linkKruba" src={link} width={"45px"} />
-        <img alt="" className="linkKruba" src={be} width={"50px"}/>
+        <img alt="" className="linkKruba" src={git}/>
+        <img alt="" className="linkKruba2" src={link} />
+        <img alt="" className="linkKruba3" src={be}/>
       </div>
     </div>
   );

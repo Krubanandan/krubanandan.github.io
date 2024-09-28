@@ -22,6 +22,18 @@
     gap: 20px;
 }
 
+.linkKruba{
+    width: 50px;
+}
+
+.linkKruba2{
+    width: 40px;
+}
+
+.linkKruba3{
+    width: 40px;
+}
+
 @media (min-width: 768px) and (max-width: 991px){
     .name p{
         font-size: 30px;
@@ -48,7 +60,10 @@
 
 }
 
-@media  (max-width: 575px){
+
+
+
+@media  (min-width:481px) and (max-width: 575px){
     .name p{
         font-size: 25px;
     }
@@ -59,4 +74,77 @@
         padding: 10px;
     }
 
+}
+
+
+@media  (min-width:401px) and (max-width: 480px){
+    .name p{
+        font-size: 22px;
+    }
+    .footer{
+        justify-content: space-around;
+        align-items: center;
+        gap: 70px;
+        padding: 10px;
+    }
+    .linkKruba{
+        width: 35px;
+    }
+    
+    .linkKruba2{
+        width: 35px;
+    }
+    
+    .linkKruba3{
+        width: 35px;
+    }
+
+}
+
+@media  (min-width:320px) and (max-width: 400px){
+    .name p{
+        font-size: 20px;
+    }
+    .footer{
+        justify-content: space-around;
+        align-items: center;
+        gap: 40px;
+        padding: 10px;
+    }
+    .linkKruba{
+        width: 30px;
+    }
+    
+    .linkKruba2{
+        width: 30px;
+    }
+    
+    .linkKruba3{
+        width: 30px;
+    }
+    
+}
+
+@media  (max-width: 319px){
+    .name p{
+        font-size: 18px;
+    }
+    .footer{
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+    }
+    .linkKruba{
+        width: 25px;
+    }
+    
+    .linkKruba2{
+        width: 25px;
+    }
+    
+    .linkKruba3{
+        width: 25px;
+    }
+    
 }

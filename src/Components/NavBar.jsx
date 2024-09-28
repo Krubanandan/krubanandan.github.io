@@ -18,7 +18,7 @@ export const NavBar = () => {
     <div className='nav-bar'>
         <div className='nav-name'>Krubanandan</div>
         <img src={menuOpen} onClick={openMenu} alt="" className='nav-open'/>
-        <ul ref={menuRef} className='nav-elememts'>
+        <ul ref={menuRef} className='nav-elements'>
             <img src={menuClose} onClick={closeMenu} alt="" className='nav-close'/>
             <li>Home</li> 
             <li>About Me</li>

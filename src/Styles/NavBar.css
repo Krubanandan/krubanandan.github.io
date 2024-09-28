@@ -8,7 +8,7 @@
   margin: 20px 150px;
 }
 
-.nav-elememts {
+.nav-elements {
   display: flex;
   align-items: center;
   list-style: none;
@@ -51,7 +51,7 @@
     justify-content: center;
     gap: 30px;
   }
-  .nav-elememts {
+  .nav-elements {
     gap: 45px;
     font-size: 18px;
   }
@@ -65,7 +65,7 @@
         justify-content: center;
         gap: 55px;
       }
-      .nav-elememts {
+      .nav-elements {
         gap: 25px;
         font-size: 17px;
       }
@@ -104,7 +104,7 @@
     left: 110px;
   }
 
-  .nav-elememts {
+  .nav-elements {
     padding: 0px 50px 50px 50px;
     flex-direction: column;
     position: fixed;
@@ -144,7 +144,7 @@
     font-size: 25px;
   }
 
-  .nav-elememts {
+  .nav-elements {
     padding: 0px 50px 50px 50px;
     flex-direction: column;
     position: fixed;

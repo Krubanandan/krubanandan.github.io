@@ -8,6 +8,11 @@
   margin: 20px 150px;
 }
 
+.resume-link{
+  text-decoration: none;
+  color: white;
+}
+
 .nav-elements {
   display: flex;
   align-items: center;

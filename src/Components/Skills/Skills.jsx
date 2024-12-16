@@ -8,6 +8,7 @@ import js1 from "../../assets/js1.png";
 import ps from "../../assets/ps.png";
 import pr from "../../assets/pr.png";
 import ae from "../../assets/ae.png";
+import reactImg from '../../assets/react.png';
 
 
 import "./Skills.css";
@@ -34,9 +35,10 @@ const Skills = () => {
         <div className="program">
           <div className="Heading">FRONT-END</div>
           <div className="image-logo">
-            <img src={html} className="img-skills" width={"65px"} />
-            <img src={css} className="img-skills" width={"70px"}/>
-            <img src={js1} className="img-skills" width={"65px"}/>
+            <img src={html} className="img-skills" width={"55px"} />
+            <img src={css} className="img-skills" width={"50px"}/>
+            <img src={js1} className="img-skills" width={"50px"}/>
+            <img src={reactImg} className="img-skills" width={"50px"}/>
           </div>
         </div>
         <div className="design">

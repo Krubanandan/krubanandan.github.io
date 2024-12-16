@@ -11,7 +11,9 @@ const Works = () => {
                 return(
                     <div key={index} className="work-container">
                         <img src={work.w_img}></img>
+                        <h3>{work.w_name}</h3>
                     </div>
+                    
                 );
             })}
 

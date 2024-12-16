@@ -11,9 +11,15 @@ const Footer = () => {
         <p>Krubanadan</p>
       </div>
       <div className="links">
-        <img alt="" className="linkKruba" src={git}/>
-        <img alt="" className="linkKruba2" src={link} />
-        <img alt="" className="linkKruba3" src={be}/>
+        <a href="https://github.com/Krubanandan">
+          <img alt="" className="linkKruba" src={git} />
+        </a>
+        <a href="https://www.linkedin.com/in/krubanandan/">
+          <img alt="" className="linkKruba2" src={link} />
+        </a>
+        <a href="">
+          <img alt="" className="linkKruba3" src={be} />
+        </a>
       </div>
     </div>
   );

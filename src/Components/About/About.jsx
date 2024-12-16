@@ -27,9 +27,9 @@ const About = () => {
           </div>
 
           <div className="about-skills">
-          <button className="about-button">Github</button>
-          <button className="about-button">LinkedIn</button>
-          <button className="about-button">Leetcode</button>
+          <a href="https://github.com/Krubanandan"><button className="about-button">Github</button></a>
+          <a href="https://www.linkedin.com/in/krubanandan/"><button className="about-button">LinkedIn</button></a>
+          <a href="https://leetcode.com/u/krubanandan/"><button className="about-button">Leetcode</button></a>
           <button className="about-button">Behance</button>
         </div>
         </p>

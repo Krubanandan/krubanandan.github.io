@@ -51,7 +51,7 @@
     background: #32323c;
 }
 
-.forms button{
+.form-button{
     border: none;
     font-size: 20px;
     color: white;
@@ -316,7 +316,7 @@
         background: #32323c;
     }
     
-    .forms button{
+    .form-button{
         border: none;
         font-size: 20px;
         color: white;

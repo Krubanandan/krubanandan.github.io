@@ -4,7 +4,7 @@ import './Works.css'
 
 const Works = () => {
   return (
-    <div className='Work-main'>
+    <div id='work' className='Work-main'>
         <h1 className="work-title">Works</h1>
         <div className="work-class">
             {mywork_data.map((work,index)=>{

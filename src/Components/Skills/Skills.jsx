@@ -22,7 +22,7 @@ const des = ["fig.png", "ps1.png", "pr.png", "ae.png", "ps.png"];
 const Skills = () => {
   return (
     <>
-      <h1 className="Tech-head"><span className="spanTech">Technical</span> Skills</h1>
+      <h1 id="skills" className="Tech-head"><span className="spanTech">Technical</span> Skills</h1>
       <div className="skill-set">
         <div className="dev">
           <div className="Heading">PROGRAMMING</div>

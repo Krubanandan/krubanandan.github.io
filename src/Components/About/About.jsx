@@ -5,7 +5,7 @@ import krubaImg from "../../assets/IMG_3507.png";
 const About = () => {
   return (
     <>
-      <h1 className="about-kruba">
+      <h1 id="about" className="about-kruba">
         <span>About</span> Me
       </h1>
       <div className="about-content">
